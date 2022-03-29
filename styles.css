@@ -1,13 +1,18 @@
 .board {
-  width: 304px;
-  height: 304px;
+  width: 308px;
+  height: 308px;
   display: flex;
   flex-wrap: wrap;
-  background-color: aquamarine;
   gap: 2px;
 }
 
 .square {
   width: 100px;
   height: 100px;
+  background-color: aquamarine;
+  font-size: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
